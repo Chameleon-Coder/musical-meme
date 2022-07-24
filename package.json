@@ -1,0 +1,27 @@
+{
+  "name": "{{project.name}}",
+  "version": "0.0.0",
+  "description": "{{project.description}}",
+  "author": "{{author.username}} ({{author.name}})",
+  "repository": "{{author.username}}/{{project.name}}",
+  "license": "MIT",
+  "main": "src/index.html",
+  "keywords": [],
+  "devDependencies": {
+    "chokidar-cli": "*",
+    "esbuild": "*",
+    "eslint": "*",
+    "eslint-config-standard": "*",
+    "eslint-plugin-import": "*",
+    "eslint-plugin-node": "*",
+    "eslint-plugin-promise": "*",
+    "html-minifier": "*",
+    "jimp": "*",
+    "pack": "*"
+  },
+  "dependencies": {
+    "img-extract": "*",
+    "img-load": "*",
+    "lerp": "*"
+  }
+}
